@@ -1,0 +1,70 @@
+@font-face{
+    src: url("digital-7.ttf");
+    font-family: digital; 
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(darkblue, darkcyan);
+    height: 120vh;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    font-size: 50px;
+    font-style: bold;
+}
+
+#board-home{
+    font-family: digital;
+    background: black;
+    height: 200px;
+    width: 200px;
+    font-size: 120px;
+    margin: 0px 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    border: 10px solid white;
+    border-radius: 20px
+}
+
+.btn{
+    font-family: digital;
+    border: 1px solid white;
+    background-color: darkblue;
+    color: white;
+    border-radius: 6px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#board-guest{
+    font-family: digital;
+    background: black;
+    height: 200px;
+    width: 200px;
+    font-size: 120px;
+    margin: 0px 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    border: 10px solid white;
+    border-radius: 20px
+}
+
+.centralize{
+    text-align: center;
+}
+
+.style{
+    margin: 20px auto;
+    font-family: digital;
+    font-size: 50px;
+}
